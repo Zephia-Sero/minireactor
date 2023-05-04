@@ -1,0 +1,5 @@
+#!/bin/env sh
+
+
+
+gcc -O3 -g -Isrc/include/ -lraylib -L/usr/local/lib/ -lrayex src/mreact.c -o bin/mreact

@@ -1,0 +1,16 @@
+# Compiled
+*/bin/
+*/obj/
+bin/
+obj/
+
+
+# Valgrind dumps
+vgcore*
+
+# Clang stuff
+compile_commands.json
+.cache/*
+
+# Things that shouldn't be uploaded or risk some kind of legal action! :D
+_*/
